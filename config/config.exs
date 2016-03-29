@@ -30,6 +30,6 @@ config :phoenix, :generators,
 
 config :hound, driver: "phantomjs"
 
-config :my_app, MyApp.Mailer,
+config :community, Community.Mailer,
   adapter: Bamboo.MandrillAdapter,
   api_key: System.get_env("MANDRILL_API_KEY")
