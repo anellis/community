@@ -29,3 +29,7 @@ config :phoenix, :generators,
   binary_id: false
 
 config :hound, driver: "phantomjs"
+
+config :my_app, MyApp.Mailer,
+  adapter: Bamboo.MandrillAdapter,
+  api_key: System.get_env("MANDRILL_API_KEY")
