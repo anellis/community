@@ -43,6 +43,7 @@ defmodule Community.Mixfile do
     [
       {:bamboo, "~> 0.4"},
       {:cowboy, "~> 1.0"},
+      {:envy, "~> 0.0.2"},
       {:ex_machina, "~> 0.6.1"},
       {:gettext, "~> 0.9"},
       {:hound, "~> 0.8"},
